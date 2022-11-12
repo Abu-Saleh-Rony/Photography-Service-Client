@@ -42,7 +42,7 @@ const NavBar = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/allService">Services</Link>
+                            <Link to="/allService">All Service</Link>
                         </li>
                         <li>
                             <Link to="/blog">Blog</Link>
@@ -50,7 +50,7 @@ const NavBar = () => {
                         {user?.email && (
                             <>
                                 <li>
-                                    <Link to="/myReview">Reviews</Link>
+                                    <Link to="/myReview">My Review</Link>
                                 </li>
                                 <li>
                                     <Link to="/addService">Add Service</Link>
