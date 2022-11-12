@@ -23,14 +23,9 @@ const Login = () => {
         logIn(email, password)
             .then((res) => {
                 const user = res.user;
-                // navigate(from, { replace: true });
-                // setError("");
-                // toast.success('Successfully Login!')
-                // form.reset();
                 const currentUser = {
                     email: user.email
                 }
-                // console.log(currentUser)
 
                 fetch('https://photography-service-server-abu-saleh-rony.vercel.app/jwt', {
                     method: 'POST',
@@ -42,7 +37,6 @@ const Login = () => {
                     .then(res => res.json())
                     .then(data => {
                         localStorage.setItem('token', data.token)
-                        // console.log(data)
                         navigate(from, { replace: true });
                         setError("");
                         toast.success('Successfully Login!')
