@@ -31,17 +31,6 @@ const Register = () => {
                 toast.error(errorMessage)
             });
     };
-
-    //   const updateUserProfile = (name, photoURL) => {
-    //     const profile = {
-    //       displayName: name,
-    //       photoURL: photoURL,
-    //     };
-    //     updateUser(profile)
-    //       .then(() => {})
-    //       .catch((error) => console.error(error));
-    //   };
-
     return (
         <div className="flex items-center justify-center text-center h-screen">
             <form

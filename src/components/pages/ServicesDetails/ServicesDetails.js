@@ -21,8 +21,6 @@ const ServicesDetails = () => {
     const [userRev, setUserRev] = useState([]);
     console.log(userRev);
 
-    //new new]
-    // const [review, setReview] = useState({});
     const { user } = useContext(userContext);
     const { _id, img, camera, details, location, price, service_name, title } =
         serviceDetail;
@@ -32,7 +30,6 @@ const ServicesDetails = () => {
         fetch(`https://photography-service-server-abu-saleh-rony.vercel.app/feedback/${_id}`)
             .then((res) => res.json())
             .then((data) => {
-                // setUserRev(data);
                 console.log(data);
             });
     }, [_id]);
@@ -54,7 +51,7 @@ const ServicesDetails = () => {
                 });
         }
     };
-    //other section
+
     const handleFeedback = (e) => {
         e.preventDefault();
 
@@ -64,7 +61,7 @@ const ServicesDetails = () => {
         const photo = form.photoURL.value;
         const feedback = form.feedback.value;
         const review = {
-            // service: _id,
+
             email,
             name,
             time: new Date(),
@@ -84,10 +81,8 @@ const ServicesDetails = () => {
             .then((data) => {
                 if (data.acknowledged) {
                     toast.success("Reviewed!");
-                    // e.target.reset()
                     form.reset();
                     setUserRev((prevRevs) => [review, ...prevRevs]);
-                    // setUserRev(review)
                 }
             });
     };
