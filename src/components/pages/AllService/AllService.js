@@ -1,0 +1,23 @@
+import React from "react";
+import { useLoaderData } from "react-router-dom";
+import useTitle from "../../Hooks/useTitle";
+import MyServiceSummery from "../MyServices/Summery/MyServiceSummery";
+
+const AllService = () => {
+    useTitle('allService')
+    const services = useLoaderData();
+    console.log(services)
+
+    return (
+        <div>
+            <p className="text-center text-xl my-3">In this section you can get all services we have provided offer to our valueable customers.</p>
+            <div className="md:grid grid-cols-2 lg:grid-cols-3 text-center">
+                {services.map((service) => (
+                    <MyServiceSummery service={service} />
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export default AllService;

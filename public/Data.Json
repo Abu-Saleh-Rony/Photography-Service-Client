@@ -1,0 +1,55 @@
+[
+    {
+        "service_name": "Wildlife Photography",
+        "img": "https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "details": "Wildlife photography is a genre of photography that records the life of animals in their natural settings, like in a forest or underwater. So, wildlife photography often constitutes the images of animals in movement or action such as eating, fighting, or in flight. It also covers various organisms, including mammals, insects, plants, reptiles, rodents, and other invertebrates. .",
+        "title": "Wild Elephant",
+        "camera": "Sony A7 IV",
+        "location": "South Africa",
+        "price": "30,000"
+    },
+    {
+        "service_name": "Sports Photography",
+        "img": "https://i1.adis.ws/i/canon/canon-pro-tom-jenkins-sports-tips-1-1140?w=1140&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)",
+        "details": "Sports photography is a type of photography that covers every sport and sporting event, capturing the action of a game and behind the scenes of the players. This type of photography helps to promote brands, the players, as well as the sport.",
+        "camera": "Canon EOS 5D MRK IV",
+        "location": "Athens, Greece",
+        "price": "10000"
+    },
+    {
+        "service_name": "Fashion Photography",
+        "img": "https://www.iipedu.com/images/fashion2.jpg",
+        "details": "Fashion photography is a genre of photography which is devoted to displaying clothing and other fashion items. Fashion photography is most often conducted for advertisements or fashion magazines such as Vogue, Vanity Fair, or Elle. It has grown into becoming a necessary way for designers to get their work out to the public. Fashion photography has developed its own aesthetic in which the clothes and fashions are enhanced by the presence of exotic locations or accessories.",
+        "title": "Hollywood's Female Model",
+        "camera": "Sony A7C",
+        "location": "NewYork",
+        "price": "50000"
+    },
+    {
+        "service_name": "Food photography",
+        "img": "https://i1.adis.ws/i/canon/pro-sid-ali-food-photography-trends-2_e5830f8b14d841ecab4f62b476497935?$media-collection-full-dt-jpg$",
+        "details": "Food photography is a still life photography genre used to create attractive still life photographs of food. It is a specialization of commercial photography, the products of which are used in advertisements, magazines, packaging, menus or cookbooks. Professional food photography is a collaborative effort, usually involving an art director, a photographer, a food stylist, a prop stylist and their assistants.",
+        "title": "Gravy Chicken",
+        "camera": "Sony A6400",
+        "location": "Dhaka, Bangladesh",
+        "price": "1500"
+    },
+    {
+        "service_name": "Street photography",
+        "img": "https://images.unsplash.com/photo-1599557041284-7e2a15610388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RyZWV0JTIwcGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "details": "Street photography at its essence means candid photography of humanity. A street photograph is a real moment.The genre is both about the photographer and their subject.Street Photographers filter the world to share what interests them and what they are feeling.However, the term itself is inherently unclear and clunky and it can cause very specific thoughts of what it is, such as black and white photographs of people walking down the street. There is much more beyond that.",
+        "title": "Historical Telebath",
+        "camera": "FujiFlim XS10",
+        "location": "London, UK",
+        "price": "2500"
+    },
+    {
+        "service_name": "Wedding Photography",
+        "img": "https://www.imagemakerclicks.com/wp-content/uploads/2021/05/DSC_1339_edited-1024x1024.jpeg",
+        "details": "Wedding photographers capture memories for brides and grooms, creating a photographic narrative of wedding ceremonies. They take action shots of pre-ceremony preparations, the marriage ceremony, and the reception. They also take posed shots of the bride, groom, wedding party, and family members.",
+        "title": "Married Couple",
+        "camera": "Canon, EOS 5D Mark III",
+        "location": "Dhaka, Bangladesh",
+        "price": "30000"
+    }
+]
